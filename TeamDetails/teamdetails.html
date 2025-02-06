@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Team Details</Details>
+    </title>
+    <style>
+        body {
+            position: relative;
+            /* background-image: url("images/bgd1.jpg"); */
+            background-image: linear-gradient(to right, #545151, #ffffff);
+            place-items: center;
+            text-align: center;
+        }
+
+        .page:hover .profile_img,
+        .page:hover h1,
+        .page:hover p {
+            display: block;
+            filter: blur(0px);
+            background-color: black;
+        }
+
+        h1 {
+            filter: blur(2px);
+            transition: 0.3s;
+            color: rgb(221, 210, 210);
+            font-family: 'Courier New', Courier, monospace;
+            text-shadow: 2px 2px 5px rgb(66, 66, 66);
+            background-color: rgb(58, 50, 50);
+            padding: 8px;
+            border-radius: 10px;
+            margin: 20px;
+            box-shadow: 2px 2px 5px 2px rgb(86, 81, 81);
+        }
+
+        img {
+            position: relative;
+            place-content: center;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 2px 2px 4px 2px rgb(106, 105, 105);
+        }
+
+        .profile_img {
+            filter: blur(10px);
+            transition: 0.1s;
+        }
+
+
+        #div2,
+        #div3 {
+            background-color: black;
+            /* background-color: rgb(185, 178, 178); */
+            display: inline-block;
+            place-items: center;
+            object-fit: fill;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px 2px grey;
+        }
+
+
+        p {
+            display: none;
+            transition: 3s;
+            font-family: 'Courier New', Courier, monospace;
+            color: rgb(221, 210, 210);
+            font-size: medium;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <div id="div1">
+            <h1>Team Members</h1>
+        </div>
+
+        <div id="div2">
+            <img id="nirmal" src="images/nirmal.jpg" alt="Nirmal's Profile" width="200" height="200"
+                class="profile_img">
+            <p>Name: M.Nirmal</p>
+            <p>ID: 2310030112</p>
+        </div>
+        <div id="div3">
+            <img src="images\sanvika.jpg" alt="Sanvika's Profile" width="200" height="200" class="profile_img">
+            <p>Name: A.Sanvika</p>
+            <p>ID: 2310030143</p>
+        </div>
+    </div>
+</body>
+
+</html>
